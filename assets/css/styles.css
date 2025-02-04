@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Open Sans", serif;
+}
+header{
+    width: 100%;
+    height: 80px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hicon{
+    width: 104px;
+    height: 41px;
+    margin-top: 19px;
+    margin-left: 41px;
+    margin-bottom: 20px;
+}
+.hinput{
+    width: 649px;
+    height: 40px;
+    border: 2px solid #D02A53;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 120px;
+}
+.cart{
+    width: 26px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+}
+.cartwale{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+.icart{
+    width: 24px;
+    height: 24px;
+}
+.iconcart{
+    display: flex;
+    width: 60px;
+    height: 33px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.iconwale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 21px;
+    gap: 10px;
+    
+}
+.iwale{
+    width: 23px;
+    height: 22px;
+}
+.wale{
+    width: 52px;
+    height: 20px;
+}
+.drop{
+    margin-left: 5px;
+    margin-top: 22px;
+}
+.topdeal{
+    width: 87px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: #121212;
+}
+.explore{
+    width: 226px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: #121212;
+}
+.sidebar{
+    width: 223px;
+    height: 1024px;
+    border: 1px solid #F7F7FA;
+    
+}
+.side-up{
+    margin-bottom: 150px;
+}
+.popular{
+    width: 134px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.popular a{
+    text-decoration: none;
+    color: #121212;
+    
+}
+.explore-new{
+    width: 104px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 21.79px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.explore-new a{
+    text-decoration: none;
+    color: #E92F5D;
+}
+.last-order{
+    width: 90px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px; 
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.last-order a{
+    text-decoration: none;
+    color: #121212;
+}
+.order{
+    width: 66px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.order a{
+    text-decoration: none;
+    color: #121212;
+}
+.log-out{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    margin-top: 180px;
+}
+.log{
+    width: 24px;
+    height: 24px;
+    margin-left: 37px;
+    
+}
+.out{
+    width: 61px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: #E92F5D;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.side-2{
+    margin-right: 100px;
+}
+.first{
+    width: 197.63px;
+    height: 216.14px;
+    
+}
+.item{
+    width: 219px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: #121212;
+}
+.price{
+    width: 197.63px;
+    height: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.All{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.more{
+    width: 44px;
+    height: 22px;  
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 21.79px;
+    margin-top: 600px;
+    margin-left: 48%;
+    margin-bottom: 100px;
+
+}
+.more a{
+    color: #E92F5D;  
+}
