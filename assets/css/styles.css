@@ -105,6 +105,14 @@ header{
     line-height: 27.24px;
     color: #121212;
 }
+.shop-by-category{
+    width: 215px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    color: #000000;
+}
 .explore{
     width: 226px;
     height: 27px;
@@ -112,6 +120,14 @@ header{
     font-weight: 700;
     line-height: 27.24px;
     color: #121212;
+}
+.Recommendation{
+    width: 228px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    color: #000000;
 }
 .sidebar{
     width: 223px;
@@ -289,3 +305,87 @@ header{
     position: relative;
      overflow: hidden;
 }
+.gridcategory{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+}
+.four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    height: Hug (421px)px;
+}
+.imgexplore{
+    width: 520.09px;
+    height: 413px;
+}
+.textd{
+    margin-left: 20px;
+}
+.wrap{
+    display: flex;
+    /* align-content: center; */
+    align-items: self-end;
+    justify-content: center;
+}
+.Appliances{
+    width: 90px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    color: #E92F5D;
+    
+}
+.img-appliances{
+    width: 130px;
+    height: 180px;
+    
+}
+
+.top-quality{
+    width: 160px;
+    height: 28px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.62px;
+    
+}
+.shop-now{
+    width: 66px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.34px;
+    color: #000000;
+}
+.grid-card{
+    width: Fixed (245px)px;
+    height: 198px;
+    background-color: #F7F7FA;
+    border-radius: 30px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+    color: #ffffff;    
+  }
+  .bottom-leftp{
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+    color: #ffffff;  
+  }
