@@ -389,3 +389,62 @@ header{
     line-height: 32.68px;
     color: #ffffff;  
   }
+.bag-img{
+    width: 467px;
+    height: 413px;    
+}
+.gridproduct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.fashion{
+    width: 55px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #000000;
+}
+.Elegant{
+    width: 569px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    color: #000000;
+}
+.elevate{
+    width: 540px;
+    height: 126px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #000000;
+}
+.naira{
+    width: 131px;
+    height: 18px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+}
+.add-t0-cart{
+    width: 573px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #E92F5D;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.add-t0-cart-text {
+    width: 80px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #ffffff;
+    text-decoration: none;
+}
