@@ -14,19 +14,40 @@ header{
     justify-content: center;
 }
 .hicon{
-    width: 104px;
-    height: 41px;
+    width: 64px;
+    height: 35px;    
     margin-top: 19px;
-    margin-left: 41px;
+    margin-left: 67px;
     margin-bottom: 20px;
 }
-.hinput{
+/* .hinput{
     width: 649px;
     height: 40px;
     border: 2px solid #D02A53;
     border-radius: 5px;
     padding: 15px;
     margin-left: 120px;
+} */
+.Search-icon{
+    width: 649px;
+    height: 40px;
+    border: 2px solid #D02A53;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 120px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Search-icon input{
+    width: 649px;
+    outline: none;
+    border: none;
+}
+.Search-icon i{
+    font-size: 17px;
+    padding: 10px;
 }
 .cart{
     width: 26px;
@@ -177,8 +198,11 @@ header{
 .gridcontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
     margin-bottom: 80px;
+    width: Hug (1,069.53px)px;
+    column-gap: 15px;
+    row-gap: 50px;
+    
 }
 .side-2{
     margin-right: 100px;
@@ -187,6 +211,10 @@ header{
     width: 197.63px;
     height: 216.14px;
     
+}
+.first:hover .hoverrr{
+    margin-top: -50px;
+    opacity: 1;
 }
 .item{
     width: 219px;
@@ -216,11 +244,48 @@ header{
     font-size: 16px;
     font-weight: 800;
     line-height: 21.79px;
-    margin-top: 600px;
     margin-left: 48%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
 }
 .more a{
     color: #E92F5D;  
+}
+.add-t-cart{
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 13.62px;
+    background-color: #E92F5D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px ;
+}
+.eye{
+    width: 32.94px;
+    height: 22.77px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.eyes{
+    width: 17px;
+    height: 17px;
+}
+
+.hoverrr{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.product{
+    position: relative;
+     overflow: hidden;
 }
