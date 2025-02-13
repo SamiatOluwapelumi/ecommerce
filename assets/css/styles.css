@@ -278,6 +278,7 @@ header{
     color: #fff;
     border-radius: 5px;
     padding: 5px ;
+    text-decoration: none;
 }
 .eye{
     width: 32.94px;
@@ -308,16 +309,18 @@ header{
 .gridcategory{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    gap: 40px;
+    gap: 30px;
+    width: Hug (1,069.53px)px;
 }
 .four-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 20px;
+    row-gap: 10px;
     height: Hug (421px)px;
 }
 .imgexplore{
-    width: 520.09px;
+    width: 400.09px;
     height: 413px;
 }
 .textd{
