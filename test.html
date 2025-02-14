@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            ul{
+                background-color: #0A488A;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                /* height: 50px; */
+                
+            }
+            li{
+                float:right;
+                margin-right: 40px;
+                
+            }
+            li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 15px 14px;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color:white;
+                color: black;
+            }
+            .contact{
+                background-color: white;
+                text-align: center;
+                color: black;
+                margin-top: 8px;
+                border:1px solid white;
+                padding: 9px;
+            }
+            .bgtopleft{
+                position: absolute;
+                top: 300px;
+                left: 100px;
+                color: white;
+            }
+            .create{
+                background-color: #2F9EBC;
+                color: white;
+                text-align: center;
+            }
+            .gridcontainer{
+                display: grid;
+                align-content: center;
+                grid-template-columns: auto auto;
+                gap: 50px;
+                margin: 10% 10%;
+            }
+            .gridbutton{
+                display: grid;
+                align-content: center;
+                grid-template-columns: auto auto;
+                margin-left: 1%;
+            }
+            .idealwork{
+                background-color: #2F9EBC;
+                text-align: center;
+                color: white;
+                gap: 2px;
+            }
+            .idealbuttonget{
+                padding: 6px;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 10px;
+                background-color: #0cf3b2;
+                color: white;
+                border: #0cf3b2;
+                
+            }
+            .idealbuttonmore{
+                padding: 5px;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 10px;
+                background-color:white;
+                color: black;
+                border: white;
+            }
+            .imagebody{
+                width: 100%;
+                background-image: linear-gradient(rgba(0,0,255,0.15),rgba(0,0,255,0.15)),url("bgimage.jpeg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: calc(100vh - 100px);
+            }
+            .amptutorial{
+                background-image: url("phone.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: calc(100vh - 120px);
+                border-radius: 19px;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .amptext{
+                color:white ;
+                margin-left: 50px;
+                font-size:larger;
+                top: 200px;
+                position:relative;
+            }
+            .play{
+                margin-left: 75%;
+                margin-top: 16%;
+            }
+            .grid-container {
+                height: 200px;
+                background-color: #2F9EBC;
+            }
+            .pinkbutton{
+                background-color: #d7296f;
+                text-align: center;
+                color: white;
+                margin-top: 8px;
+                border:#d7296f;
+                padding: 9px;
+                margin-left: 40%;
+                float: left;
+                margin-top: 90px;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+            .whitebutton{
+                background-color: white;
+                text-align: center;
+                color: black;
+                margin-top: 8px;
+                border:white;
+                padding: 9px;
+                float: left;
+                margin-top: 90px;
+                margin-left: 4px;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+            .blackbutton{
+                background-color: black;
+                text-align: center;
+                color: white;
+                margin-top: 8px;
+                border:black;
+                padding: 9px;
+                float: left;
+                margin-top: 90px;
+                margin-left: 4px;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+            .orangecard{
+                background-color: #E5BF9A;
+                color: white;
+                text-align: left;
+                width: 70%;
+                border-radius: 20px;
+                text-align:left;
+                margin-left: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .orangetext{
+                color:white ;
+                margin-left: 40px;
+            
+            }
+            .tealcard{
+                background-color: #c1e8c6;
+                color: white;
+                text-align: left;
+                width: 70%;
+                border-radius: 20px;
+                text-align:left;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .tealtext{
+                color: white;
+                margin-left: 40px;
+            }
+            .purplecard{
+                background-color: #824097;
+                color: white;
+                text-align: left;
+                width: 70%;
+                border-radius: 20px;
+                text-align:left;
+                margin-left: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .purpletext{
+                color: white;
+                margin-left: 40px;
+            }
+            .gridcards{
+                display: grid;
+                align-content: center;
+                grid-template-columns: auto auto;
+                margin-left: 15%;
+                /* margin-right: 10%; */
+            }
+            .underline{
+                background-color: #0D0D0D;
+                width: 150px;
+                height: 5px;
+                border-radius: 5px;
+                
+            }
+            input {
+                  border: none;
+                  padding: 10px;
+                  border-bottom: 2px solid rgba(80, 55, 55, 0.319);
+            }
+            textarea{
+            border: none;
+            border-bottom: 2px solid rgba(80, 55, 55, 0.319);
+            height: 150px;
+            padding: 12px 20px;
+            }
+            .sendmessage{
+                background-color: black;
+                text-align: center;
+                color: white;
+                border:black;
+                padding: 9px;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .lastsection{
+                background-color: #062b52;
+                color: white;
+            }
+            img {
+                padding: 5px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+            }
+
+        </style>
+        <body>
+            <div>
+                    <ul>
+                        <li><button type="button" class="contact">CONTACT US</button></li>
+                        <li><a href="#more">MORE DEMOS <i class="fa fa-caret-down"></i></a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#service">SERVICES</a></li>
+                        <li><a href="#home">HOME</a></li>
+                    </ul>
+            </div>
+            <div class="imagebody">
+                
+               <div class="bgtopleft"> 
+                   
+                <p style="font-size: larger; ">AMP HTML <b>Co-working Template</b></p>
+                <p style="width: 40%;">Dive into the co-working space to notice what the team work term means.
+                     While working with AMP HTML Co-Working Template you can share not only working spaces,
+                      but also ideas, thoughts and impressions.</p>
+                
+                <button type="button" class="contact"><i class="fa fa-play-circle"></i>GET STARTED</button>
+                
+                </div>
+            </div>
+            <div class="gridcontainer" >
+              <div><p style="font-size: large;"><i class="fa fa-lightbulb-o" style="font-size:36px; color:#2F9EBC"></i><b>Realize</b> The best Idea</p>
+                <p>Co-working is the most profitable activity in particular for</p> 
+                <p> your thoughts with AMP HTML Co-working </p>
+                <p>Template.</p>
+              </div>
+
+              <div><p style="font-size: large;"><b>Create</b> An Efficient Team</p>
+                <p>AMP HTML Co-working Template will help you find your people</p>
+               <p> to work with. You will notice that your team will stick together</p> 
+               <p> whatever problem you face</p>
+              </div>
+                
+
+              <div><p style="font-size: large;"><b>Manage</b> A Talented Team</p>
+                    <p>Thanks to AMP HTML Co-working Templateyou can lead your</p> 
+                    <p>working process in the right direction and help your team</p> 
+                    <p>achieve objectives.</p>
+              </div>
+
+              <div><p style="font-size: large;"><b>Launch</b> A Unique Project</p>
+                        <p>More people implies more ideas.use AMP HTML Co-working</p> 
+                        <p>Template to create Project noone has ever seen before.</p>
+              </div>
+              
+            </div>
+            <div class="idealwork">
+                <br><br>
+                <div> <h1>Create an Ideal Workplace</h1></div>
+                <div><p>There are a lot of benefits you can make use of while working on your project using AMP HTML Co-working Template.</p>
+                <p>Co-working spaces make you relax,concentrate on your own objectives and learn from other people. Co-work can let</p>
+                <p>yo discover new boundaries of your projects and this is what AMP HTMLCo-working Template is meant for.</p></div>
+                
+                <div class="gridbutton">
+                <button type="button" class="idealbuttonget" style="width: 20%; margin-left: 78%;">Get Started</button>
+                <button type="button" class="idealbuttonmore" style="width: 20%; ">More Info</button>
+                <br><br><br>
+            </div>
+            </div>
+            <div class="amptutorial">
+                <div class="amptext"><h1>AMP<br>TUTORIAL</h1>
+                <p>the best tutorial you could ever think of.</p></div>
+                <div class="play"><i class="fa fa-play-circle-o"style="font-size:60px;color:white"></i></div>
+            </div>
+            <div class="grid-container">
+                <div><button type="button" class="pinkbutton" >GET STARTED</button></div>
+                <div><button type="button" class="whitebutton"  >MORE INFO</button></div>
+                <div><button type="button" class="blackbutton" >CONTACT US</button></div>
+            </div><br><br>
+            <div class="gridcards">
+                <div>
+                <div class="orangecard">
+                <div class="orangetext">
+                    <br>
+                    <p style="font-size: 20px;"><i class="fa fa-comments" style="font-size:38px;color:white"></i><b>Create</b> Team</p>
+                    <p>C0-work makes you realize the importance of what you are<br>
+                    working on. Let AMP HTML Co-working Teamplate help you<br>
+                succeed at launching your startup project.</p><br></div>
+                </div><br>
+
+                <div class="tealcard">
+                    <div class="tealtext">
+                        <br><p style="font-size: 5px;"><i class="fa fa-lightbulb-o" style="font-size:38px;color:white"><b style="font-size: 35px;">Realize</b> Ideas</i></p>
+                        <p>Team work let you feel like an essential part of a thriving<br>
+                        community. You will have more control over thought and ideas<br>
+                    while using AMP HTML Co-working Template based on AMP HTML code.</p><br></div>
+                    
+                </div><br>
+                <div class="purplecard">
+                    <div class="purpletext">
+                        <br><p style="font-size: 10px;"><i class="fa fa-send-o" style="font-size:38px;color:white"><b style="font-size: 35px;">Launch</b> Project</i></p>
+                        <p>Let your startup project grow with AMP HTML Co-working<br>
+                        Template. Your co-workers can provide a good assistance in<br>
+                         your working process. Launch a free AMP HTML template as fast<br>
+                          as possible<br></p><br></div>
+                    
+                    </div>
+                </div>
+                <div>
+                    <div >
+                        <h1 >Contact Us</h1>
+                        <p>Contact us to know more about AMP HTNL Co-<br>working Template and its capabilities. push<br> the limit and realizeyour objectives.</p>
+                        <div class="underline"></div>
+                        <div><br><br>
+                            <form>
+                                <input type="text" id="name" placeholder="Name"><br><br>
+                                <input type="text" id="phone" placeholder="Phone"><br><br>
+                                <input type="text" id="email" placeholder="Email"><br><Br>
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </form>
+                            <div><button type="button" class="sendmessage" >SEND MESSAGE</button></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br><br>
+            <div class="lastsection">
+                <Br><br><div><img src="logo.png" alt="phone" style="width:60px"></div>
+                    <pre style="margin-left: 40%;"><div><p><b>HOME   ABOUT   CONTACT   SUPPORT   INFO</b></p></div></pre>
+                    <P style="color: rgb(71, 84, 98); margin-left: 30%;">HTML AMP Co-working Template will help you find a spot among workers like you</P>
+                    <pre><p style="margin-left: 27%;padding: 5px;"><i class="fa fa-twitter" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-facebook" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-google-plus" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-youtube" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-instagram" style="font-size:38px;color:white;border:2px solid white;border-radius: 5px;padding: 5px;"></i>  <i class="fa fa-pinterest" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-twitter" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-linkedin" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-wifi" style="font-size:38px;border-radius: 5px;color:white;border:2px solid white;padding: 5px;"></i>  <i class="fa fa-wheelchair-alt" style="font-size:38px;color:white;border:2px solid white;border-radius: 5px; padding: 5px;"></i></p><br><br></pre>
+                       
+            </div>
+        </body>
+    </head>
+</html>

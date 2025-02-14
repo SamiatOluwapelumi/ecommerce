@@ -3,6 +3,7 @@
 }
 body,html{
     overflow-x: hidden;
+    /* overflow-y: hidden; */
     margin: 0;
     font-family: "Open Sans", serif;
 }
@@ -20,14 +21,6 @@ header{
     margin-left: 67px;
     margin-bottom: 20px;
 }
-/* .hinput{
-    width: 649px;
-    height: 40px;
-    border: 2px solid #D02A53;
-    border-radius: 5px;
-    padding: 15px;
-    margin-left: 120px;
-} */
 .Search-icon{
     width: 649px;
     height: 40px;
@@ -449,5 +442,116 @@ header{
     font-weight: 600;
     line-height: 19.07px;
     color: #ffffff;
+    text-decoration: none;
+}
+.zila{
+    width: 244px;
+    height: 102px;  
+}
+.onlineshop{
+    width: 338px;
+    height: 70px;
+    font-family: Istok Web;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.zillaimg{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   
+}
+.forms{
+    width: 491px;
+    height: Hug (368px)px;  
+}
+.register{
+    width: 63px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    color: #FFFFFF;   
+}
+.reg{
+    background-color: #D02A53;
+    width: 491px;
+    height: 60px;
+    border-radius: 10px ;
+    border: 1px solid #D02A53;
+    text-align: center;
+    align-content: center; 
+    margin-top: 20px;
+}
+.plogin{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    color: #D02A53;
+
+}
+
+.undreg{
+    height: 19px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.logdisplay{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+.container {
+    position: relative;
+    background-image: linear-gradient(rgba(36,19,23,0.8),rgba(36,19,23,0.8)),url("/assets/images/backgrnd\ img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100%);
+    border-radius: 10px;
+  }
+.Createacc{
+    width: 246px;
+    height: 44px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.58px;
+    color:#000000;
+    margin-bottom: 100px;  
+}
+input{
+    width: 491px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #C0BED6;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+label{
+    width: 85px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    color: #000000;  
+    
+}
+.Create-form{
+    padding: 100px;
+}
+.Create-form a{
     text-decoration: none;
 }
