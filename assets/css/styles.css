@@ -6,6 +6,38 @@ body,html{
     margin: 0;
     font-family: "Open Sans", serif;
 }
+select:focus,
+select:focus-visible {
+  outline: none;
+  box-shadow: none; /* Optional: Removes any shadow effects */
+  border-color: inherit; /* Optional: Prevents border color change */
+}
+.cart-container {
+    position: relative;
+    display: inline-block;
+  }
+.cart-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+.cart-badge {
+    position: absolute;
+    top: 6px;
+    right: 40px;
+    background-color: red;
+    width: 13px;
+    height: 13px;
+    font-size: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 header{
     width: 100%;
     height: 80px;  
@@ -90,8 +122,9 @@ header{
     height: 22px;
 }
 .wale{
-    width: 52px;
+    width:fit-content;
     height: 20px;
+    border: none;
 }
 .drop{
     margin-left: 5px;
@@ -394,8 +427,10 @@ header{
     color: #ffffff;  
   }
 .bag-img{
-    width: 467px;
-    height: 413px;    
+    width: 477px;
+    height: 462px; 
+    width: 477;
+    border-radius: 30px;   
 }
 .gridproduct{
     display: grid;
@@ -566,6 +601,9 @@ label{
 .mask{
     width: 100px;
     height: 70px;
+    top: 15px;
+    left: 25px;
+    border-radius: 5px;
 }
 .maskp{
     width: 208px;
@@ -690,4 +728,9 @@ tr{
 .numb{
     border: none;
     width: 60px;
+}
+.img-boxx{
+    width: 197.63px;
+    height: 177.73px;
+    border-radius: 30px;
 }
